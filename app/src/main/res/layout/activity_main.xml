@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".MainActivity">
+
+    <CheckedTextView
+        android:id="@+id/checkedTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+        android:checked="false"
+        android:drawableStart="@drawable/ic_baseline_notifications_none_24"
+        android:drawablePadding="15dp"
+        android:gravity="center"
+        android:text="Checked Text View" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatCheckBox
+            android:id="@+id/checkJava"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@drawable/check_button"
+            android:paddingStart="10dp"
+            android:text="Java" />
+
+        <androidx.appcompat.widget.AppCompatCheckBox
+            android:id="@+id/checkKotlin"
+            android:layout_width="wrap_content"
+            android:button="@drawable/check_button"
+            android:layout_height="wrap_content"
+            android:paddingStart="10dp"
+            android:text="Kotlin" />
+
+        <Button
+            android:id="@+id/btnCheck"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Click" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Layouts</string>
+    <string name="search">Search</string>
+    <string name="lan">Java, Kotlin, Dart, JavaScript, C++, C, Python</string>
+
+
+    <array name="languages">Java, Kotlin, Dart, JavaScript, C++, C, Python</array>
+</resources>
